@@ -104,3 +104,15 @@ sequenceDiagram
     BE-->>FE: JWT Token + User
     FE->>U: Login Successful
 ```
+## Product fetch flow
+```mermaid
+sequenceDiagram
+    participant FE as Frontend
+    participant BE as Backend
+    participant DB as MongoDB
+
+    FE->>BE: GET /products
+    BE->>DB: Fetch products
+    DB-->>BE: Product list
+    BE-->>FE: Products data
+```
