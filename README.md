@@ -88,3 +88,19 @@ project-root/
 ├── docker-compose.yml
 └── README.md
 ```
+## 🔄 Application Flow (Mermaid)
+## 🔐 Authentication Flow
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant FE as Frontend (Next.js)
+    participant BE as Backend (Express)
+    participant DB as MongoDB
+
+    U->>FE: Enter credentials
+    FE->>BE: POST /auth/login
+    BE->>DB: Validate user
+    DB-->>BE: User data
+    BE-->>FE: JWT Token + User
+    FE->>U: Login Successful
+```
