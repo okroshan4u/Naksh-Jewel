@@ -143,3 +143,8 @@ docker-compose up --build
 | -------- | ---------------------------------------------- |
 | Frontend | [http://localhost:3000](http://localhost:3000) |
 | Backend  | [http://localhost:5000](http://localhost:5000) |
+🔐 Environment Variables
+Backend (backend/.env)
+PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
