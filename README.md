@@ -116,3 +116,14 @@ sequenceDiagram
     DB-->>BE: Product list
     BE-->>FE: Products data
 ```
+---
+## 🛒 Cart Flow
+```mermaid
+flowchart TD
+    A[User] --> B[Add Product to Cart]
+    B --> C[Frontend API Call]
+    C --> D[Backend Cart Controller]
+    D --> E[Update Cart in DB]
+    E --> F[Return Updated Cart]
+    F --> A
+```
