@@ -127,3 +127,14 @@ flowchart TD
     E --> F[Return Updated Cart]
     F --> A
 ```
+## 🐳 Docker Setup
+Prerequisites
+
+- Docker
+
+- Docker Compose
+
+Run the project
+```
+docker-compose up --build
+```
