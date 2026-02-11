@@ -138,3 +138,8 @@ Run the project
 ```
 docker-compose up --build
 ```
+## Services
+| Service  | URL                                            |
+| -------- | ---------------------------------------------- |
+| Frontend | [http://localhost:3000](http://localhost:3000) |
+| Backend  | [http://localhost:5000](http://localhost:5000) |
