@@ -9,7 +9,7 @@ import { productsApi } from '@/lib/api/products';
 import ProductCard from '@/components/products/ProductCard';
 import Loading from '@/components/common/Loading';
 import Button from '@/components/common/Button';
-import styles from '../admin/products/admin.module.css';
+import styles from '../products/admin.module.css';
 
 export default function AdminPage() {
   const router = useRouter();

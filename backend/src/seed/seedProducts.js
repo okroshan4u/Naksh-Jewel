@@ -20,7 +20,7 @@ const products = [
   {
     name: "Diamond Earrings",
     price: 5200,
-    image: "https://via.placeholder.com/300",
+    image: "https://placehold.co/300",
     description: "Premium diamond earrings",
   },
 ];

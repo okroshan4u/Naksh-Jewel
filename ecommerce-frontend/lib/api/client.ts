@@ -15,7 +15,7 @@ const apiClient: AxiosInstance = axios.create({
   timeout: 10000,
 });
 
-// Request interceptor
+
 apiClient.interceptors.request.use(
   (config: InternalAxiosRequestConfig) => {
     if (typeof window !== "undefined") {
@@ -29,7 +29,7 @@ apiClient.interceptors.request.use(
   (error: AxiosError) => Promise.reject(error),
 );
 
-// Response interceptor
+
 apiClient.interceptors.response.use(
   (response) => response,
   (error: AxiosError) => {

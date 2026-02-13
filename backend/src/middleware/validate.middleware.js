@@ -1,4 +1,4 @@
-// Validate required fields in req.body
+
 export const validateBody = (requiredFields = []) => {
   return (req, res, next) => {
     for (const field of requiredFields) {
@@ -13,7 +13,7 @@ export const validateBody = (requiredFields = []) => {
   };
 };
 
-// Validate MongoDB ObjectId param
+
 export const validateObjectId = (paramName = "id") => {
   return (req, res, next) => {
     const value = req.params[paramName];
