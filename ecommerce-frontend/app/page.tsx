@@ -35,7 +35,7 @@ export default function HomePage() {
 
   return (
     <div className={styles.container}>
-      {/* Hero Section */}
+
       <section className={styles.hero}>
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>
@@ -67,7 +67,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Featured Products Section */}
+   
       <section className={styles.section}>
         <div className={styles.sectionHeader}>
           <h2 className={styles.sectionTitle}>Featured Products</h2>
@@ -104,7 +104,7 @@ export default function HomePage() {
         )}
       </section>
 
-      {/* Features Section */}
+    
       <section className={styles.features}>
         <div className={styles.feature}>
           <span className={styles.featureIcon}>🚚</span>
