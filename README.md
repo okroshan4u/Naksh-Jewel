@@ -151,3 +151,21 @@ PORT=5000
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
 ```
+---
+## Frontend (ecommerce-frontend/.env.local)
+```
+NEXT_PUBLIC_API_BASE_URL=http://localhost:5000
+```
+## 🚀 Future Improvements
+
+- Role-based access control (Admin/User)
+
+- Admin product CRUD dashboard
+
+- Order management
+
+- Payment gateway integration
+
+- Server-side authentication
+
+- Deployment on cloud (AWS / Vercel / Render)
