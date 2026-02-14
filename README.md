@@ -56,7 +56,7 @@ The project demonstrates real-world concepts such as authentication, product man
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```txt
 project-root/
