@@ -88,7 +88,7 @@ project-root/
 ├── docker-compose.yml
 └── README.md
 ```
-## 🔄 Application Flow (Mermaid)
+##  Application Flow (Mermaid)
 ## 🔐 Authentication Flow
 ```mermaid
 sequenceDiagram
